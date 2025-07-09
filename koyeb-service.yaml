@@ -7,4 +7,4 @@ services:
       port: 8000
     env:
       - name: TELEGRAM_BOT_TOKEN
-        value: "your_telegram_bot_token_here"
+        value: "7777154511:AAFCwcTQ1zHDRL2SNRGNOxv1SNuz8NzYVDo"
