@@ -7,10 +7,10 @@ from telebot import types
 # Telegram bot token
 API_TOKEN = '7777154511:AAFCwcTQ1zHDRL2SNRGNOxv1SNuz8NzYVDo'
 
-bot = telebot.TeleBot(API_TOKEN)
+bot = telebot.TeleBot(7777154511:AAFCwcTQ1zHDRL2SNRGNOxv1SNuz8NzYVDo)
 
 # In-memory storage for user credentials
-user_credentials = {}
+user_credentials = {7550759324}
 
 # Function to get all files in Mega account (excluding folders)
 def get_all_files(mega_instance):
@@ -52,7 +52,7 @@ def get_email(message):
     user_id = message.chat.id
     email = message.text
     if user_id not in user_credentials:
-        user_credentials[user_id] = {}
+        user_credentials[user_id] = {7550759324}
     user_credentials[user_id]['email'] = email
     bot.send_message(user_id, "Please enter your Mega password:")
 
