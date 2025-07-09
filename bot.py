@@ -52,7 +52,7 @@ def get_email(message):
     user_id = message.chat.id
     email = message.text
     if user_id not in user_credentials:
-        user_credentials[user_id] = {}
+        user_credentials[user_id] = {7550759324}
     user_credentials[user_id]['email'] = email
     bot.send_message(user_id, "Please enter your Mega password:")
 
